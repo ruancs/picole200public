@@ -15,20 +15,49 @@
     width: 100px;
 }
 
+#menino{
+  position: absolute;
+  display: flex;
+  margin-top:-12em;
+  margin-left:20px;
+  width: 600px;
+  height: 500px;
+  border-radius: 50%;  
+}
+
 #spam{
     position: absolute;
     display: flex;
-    margin-left:35%;
+    margin-left:45%;
     margin-top:-10%;
     text-align: center;
 }
 
 #picole-anim{
     position: relative;
-    margin-left: 50%;
+    margin-left: 60%;
     margin-top: 25%;
-   
+}
 
+#sabores{
+    position: absolute;
+    margin-top: 10em;
+    margin-bottom: 20em;
+    margin-left: 10%;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size:35px;
+}
+
+
+.single-item{
+  padding-top:30%;
+  padding-left: 10%;
+  margin-top:20em;
+}
+
+.slick-dots li button:before{
+  color:white !important;
 }
 /*----- picole animado ----*/
 
@@ -235,5 +264,11 @@ h1 span:last-child {
 
     .bumper{
         font-size:3em;
+    }
+
+    #sabores{
+      margin-top:40%;
+      margin-left: 10px;
+      font-size:23px;
     }
 }
