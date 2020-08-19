@@ -18,8 +18,8 @@
 #menino{
   position: absolute;
   display: flex;
-  margin-top:-12em;
-  margin-left:20px;
+  margin-top:-15%;
+  margin-left:5%;
   width: 600px;
   height: 500px;
   border-radius: 50%;  
@@ -53,11 +53,13 @@
 .single-item{
   padding-top:30%;
   padding-left: 10%;
+  padding-right: 10%;
   margin-top:20em;
 }
 
 .slick-dots li button:before{
   color:white !important;
+  margin-left:-200px;
 }
 /*----- picole animado ----*/
 
