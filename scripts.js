@@ -8,7 +8,8 @@ $('#unicorn').click(function(){
 })
 
 $('.single-item').slick({
-    dots:true
+    dots:true,
+    arrows:false
 });
 
 

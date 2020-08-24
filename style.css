@@ -1,10 +1,12 @@
 .body{
-    background-color: rgb(51,10,122);
+    
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
+
 
 .navbar{
     background: rgb(51,10,122);
-    background: linear-gradient(90deg, rgba(51,10,122,1) 0%, rgba(140,43,179,1) 35%);
+    background: linear-gradient(90deg, #330a7a 0%, #8c2bb3 35%);
     color: white;
     font-family: 'Russo One', sans-serif;
     font-size: 30px;       
@@ -41,13 +43,12 @@
 #sabores{
     position: absolute;
     margin-top: 10em;
-    margin-bottom: 20em;
+    margin-bottom: 10em;
     margin-left: 10%;
     font-family: 'Russo One', sans-serif;
     color: white;
     font-size:35px;
 }
-
 
 .single-item{
   padding-top:30%;
@@ -55,6 +56,7 @@
   padding-right: 10%;
   margin-top:20em;
 }
+
 
 .slick-dots li button:before{
   color:white !important;
@@ -260,7 +262,6 @@ h1 span:last-child {
 
 @media(max-width: 768px){
 
-
     #logo{
       margin-left:auto;
       margin-right: auto;      
@@ -271,11 +272,10 @@ h1 span:last-child {
       position: relative;
       width: 300px;
       height:300px;
-
-      padding-left: 10%;
+      
       border-radius:200px 0px 0px 200px;
       margin-top: 25%;
-      margin-left: auto;
+      margin-left: 50%;
             
 
     }
@@ -284,7 +284,7 @@ h1 span:last-child {
         position: absolute;
         display: flex;
         margin-left: 0px;
-        margin-top:-50%;
+        margin-top:-55%;
         padding: 10px;
     }
 
@@ -303,8 +303,30 @@ h1 span:last-child {
     }
 
     #slides{
-      margin-top: -180px;
-      padding-right:10%;
+      margin-top: -300px;
+      width:450px;      
+      margin-left:-3%;
+            
     }
+
+    #titulo{
+      font-size: 30px;
+      width: 450px;
+      
+    }
+
+}
+
+@media(max-width: 1440px){
+  #picole-anim{
+    margin-left: 80%;
+  }
+
+}
+
+@media(max-width: 1024px){
+  #picole-anim{
+    display:none;
+  }
 
 }
