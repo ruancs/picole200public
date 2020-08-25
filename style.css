@@ -1,3 +1,11 @@
+* {
+  padding:0;
+  margin:0;
+  vertical-align:baseline;
+  list-style:none;
+  border:0
+  }
+
 .body{
     
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
@@ -57,6 +65,7 @@
   color:white;
   text-align: center;
   justify-items: center;
+  padding: 20px;
 
   
 }
@@ -78,6 +87,17 @@
 .animate{
   opacity: 1;
   transform: translate3d(-50px, 0, 0);
+}
+
+.footer{
+  
+  margin-top:50px;
+  background: linear-gradient(90deg, #330a7a 0%, #8c2bb3 35%);
+  width: 100%;
+  text-align: center;
+  color:white;
+  font-family: 'Ubuntu';
+
 }
 
 
@@ -106,14 +126,14 @@ body {
     width: 200px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
   
   .popsicle {
     height: 180px;
-    width: 120px;
+    width: 110px;
     border-radius: 55px 55px 10px 10px;
     position: relative;
     display: block;
@@ -294,11 +314,8 @@ h1 span:last-child {
 
 @media(max-width: 768px){
 
-    .bloco{
-      
-
+    .bloco{     
       width: 100%;
-     
       padding: 30px;      
       font-size: 26px;
     }
@@ -347,8 +364,7 @@ h1 span:last-child {
     #slides{
       
       margin-top:-90px;
-      width:90%;      
-
+      width:90%;    
       padding: -50%;
 
             
