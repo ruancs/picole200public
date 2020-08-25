@@ -50,6 +50,38 @@
     font-size:35px;
 }
 
+#about{
+  
+  font-family: 'Russo One';
+  text-shadow: none;
+  color:white;
+  text-align: center;
+  justify-items: center;
+
+  
+}
+
+.bloco{
+  opacity: 0;
+  transition:.8s;
+  background: linear-gradient(90deg, #330a7abb 0%, #8c2bb3b6 35%);
+  width: 600px;
+  border-radius: 10px;
+  padding:10px;
+  margin-left: 10%;  
+  -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+  -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+  box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);;
+  
+}
+
+.animate{
+  opacity: 1;
+  transform: translate3d(-50px, 0, 0);
+}
+
+
+
 .single-item{
   padding-top:30%;
   padding-left: 10%;
@@ -262,34 +294,44 @@ h1 span:last-child {
 
 @media(max-width: 768px){
 
+    .bloco{
+      
+
+      width: 100%;
+     
+      padding: 30px;      
+      font-size: 26px;
+    }
+
     #logo{
       margin-left:auto;
       margin-right: auto;      
       width:200px;
     }
 
-    #menino{
-      position: relative;
-      width: 300px;
-      height:300px;
-      
-      border-radius:200px 0px 0px 200px;
-      margin-top: 25%;
-      margin-left: 50%;
-            
+    #menino{      
+      display:flex;
+      position: absolute;
+      margin-left: 0;
+      margin-top: 40%;
+      width: 350px;
+      height:300px;      
+      border-radius:200px 100px 0px 200px;
+      opacity: 80%;
 
+    
     }
 
     #spam{
-        position: absolute;
-        display: flex;
-        margin-left: 0px;
-        margin-top:-55%;
+        display: inline-block;
+        position: relative;
+        margin-left: 10px;
+        margin-top:80%;
         padding: 10px;
     }
 
     .bumper{
-        font-size:2.5em;
+        font-size:1.5em;
     }
 
     #sabores{
@@ -303,15 +345,20 @@ h1 span:last-child {
     }
 
     #slides{
-      margin-top: -300px;
-      width:450px;      
-      margin-left:-3%;
+      
+      margin-top:-90px;
+      width:90%;      
+
+      padding: -50%;
+
             
     }
 
     #titulo{
+      
+      margin-top:50px;
       font-size: 30px;
-      width: 450px;
+      width: 100%;
       
     }
 
