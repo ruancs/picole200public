@@ -80,7 +80,7 @@
   margin-left: 10%;  
   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
   -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
-  box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);;
+  box-shadow:         3px 5px 5px rgba(50, 50, 50, 0.77);;
   
 }
 
@@ -93,7 +93,7 @@
   
   margin-top:50px;
   background: linear-gradient(90deg, #330a7a 0%, #8c2bb3 35%);
-  width: 100%;
+  width: 110%;
   text-align: center;
   color:white;
   font-family: 'Ubuntu';
